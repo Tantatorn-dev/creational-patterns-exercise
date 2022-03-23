@@ -4,6 +4,8 @@ package creational.creational;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import java.util.Arrays;
+
 
 public class JSONBookMetadataFormatter implements BookMetadataFormatter {
 
@@ -25,7 +27,10 @@ public class JSONBookMetadataFormatter implements BookMetadataFormatter {
         newObj.put("ISBN",b.getISBN());
         newObj.put("Title",b.getTitle());
         newObj.put("Publisher",b.getPublisher());
-        newObj.put("Authors",b.getAuthors());
+
+        String authors = String.join("|", b.getAuthors());
+        newObj.put("Authors", authors);
+
         jsonObjects.add(newObj);
         return this;
     }

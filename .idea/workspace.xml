@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="add exporters">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="refactor a project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookMetadataFormatterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataFormatterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSVBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/CSVBookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSVBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/CSVBookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSONBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/XMLBookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/XMLBookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648039112653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor a project">
+      <created>1648039457585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648039457585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement json formatter" />
     <MESSAGE value="add exporters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exporters" />
+    <MESSAGE value="refactor a project" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor a project" />
   </component>
 </project>
