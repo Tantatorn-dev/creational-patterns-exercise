@@ -1,6 +1,4 @@
-package creational;
-
-import javax.xml.parsers.ParserConfigurationException;
+package creational.creational;
 
 public class JSONBookMetadataExporter extends BookMetadataExporter {
 

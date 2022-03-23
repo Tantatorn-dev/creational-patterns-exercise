@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="implement json formatter">
-      <change afterPath="$PROJECT_DIR$/CSVBookMetadataExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSONBookMetadataExporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLBookMetadataExporter.java" afterDir="false" />
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="add exporters">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookMetadataExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookMetadataFormatterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/BookMetadataFormatterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSVBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/CSVBookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSVBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/CSVBookMetadataFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSONBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLBookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/XMLBookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/XMLBookMetadataFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creational.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
@@ -58,14 +68,27 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.Main" />
-      <module name="creational" />
+      <option name="MAIN_CLASS_NAME" value="creational.creational.Main" />
+      <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.*" />
+          <option name="PATTERN" value="creational.creational.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="patterns" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648027079205</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add exporters">
+      <created>1648039112653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648039112653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement json formatter" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement json formatter" />
+    <MESSAGE value="add exporters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exporters" />
   </component>
 </project>
