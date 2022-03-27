@@ -7,6 +7,6 @@ public class Anesthesiologist extends HealthcareWorker {
 
     @Override
     public void service() {
-        System.out.println(this.getName() + " takes care of patients before, during and after surgery. It encompasses anesthesia, intensive care medicine, critical emergency medicine, and pain medicine.");
+        System.out.println(this.getName() + " takes care of the total perioperative care of patients before, during and after surgery.");
     }
 }
