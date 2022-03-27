@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="refactor a project">
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="fix json authors field format">
+      <change afterPath="$PROJECT_DIR$/structural/Cardiologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/ExampleOutput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/HealthcareServiceable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/HealthcareWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/HealthcareWorker.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/HealthcareWorker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/HealthcareWorkerTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structural/Surgeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/creational/JSONBookMetadataFormatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +57,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="creational" />
     </key>
@@ -62,19 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="patterns" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="patterns" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648039457585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix json authors field format">
+      <created>1648039663908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648039663908</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +139,7 @@
     <MESSAGE value="implement json formatter" />
     <MESSAGE value="add exporters" />
     <MESSAGE value="refactor a project" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor a project" />
+    <MESSAGE value="fix json authors field format" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix json authors field format" />
   </component>
 </project>
