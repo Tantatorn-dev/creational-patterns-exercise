@@ -1,19 +1,20 @@
 package creational.structural;
 
 public class HealthcareWorkerDecorator extends HealthcareWorker {
-    private HealthcareWorker worker;
+    private HealthcareWorker wrappee;
 
     public HealthcareWorkerDecorator(HealthcareWorker worker) {
         super(worker);
+        this.wrappee = worker;
     }
 
     @Override
     public void service() {
-        worker.service();
+        this.wrappee.service();
     }
 
     @Override
     public double getPrice() {
-        return worker.getPrice();
+        return this.wrappee.getPrice();
     }
 }

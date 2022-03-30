@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="add all necessary classes">
-      <change beforePath="$PROJECT_DIR$/structural/Anesthesiologist.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/Anesthesiologist.java" afterDir="false" />
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="change Anesthiologist text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/HealthcareWorkerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/HealthcareWorkerDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648380266943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change Anesthiologist text">
+      <created>1648380446255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648380446255</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +169,7 @@
     <MESSAGE value="fix json authors field format" />
     <MESSAGE value="add second problem" />
     <MESSAGE value="add all necessary classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all necessary classes" />
+    <MESSAGE value="change Anesthiologist text" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Anesthiologist text" />
   </component>
 </project>
