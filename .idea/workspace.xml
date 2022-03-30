@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="change Anesthiologist text">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/HealthcareWorkerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/HealthcareWorkerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="implement time logging">
+      <change beforePath="$PROJECT_DIR$/structural/TaxPayingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/TaxPayingHealthcareWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648380446255</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implement time logging">
+      <created>1648672138664</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648672138664</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +175,7 @@
     <MESSAGE value="add second problem" />
     <MESSAGE value="add all necessary classes" />
     <MESSAGE value="change Anesthiologist text" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Anesthiologist text" />
+    <MESSAGE value="implement time logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement time logging" />
   </component>
 </project>

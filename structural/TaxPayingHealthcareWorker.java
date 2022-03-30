@@ -8,6 +8,6 @@ public class TaxPayingHealthcareWorker extends HealthcareWorkerDecorator {
 
     @Override
     public double getPrice() {
-        return super.getPrice();
+        return 1.1 * super.getPrice();
     }
 }
