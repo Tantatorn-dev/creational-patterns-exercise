@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="implement time logging">
+    <list default="true" id="675a7f4e-87a7-4b21-bfc2-c2e93af34f82" name="Changes" comment="implement tax paying">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structural/TaxPayingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/TaxPayingHealthcareWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/structural/TimeLoggingHealthcareWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648672138664</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implement tax paying">
+      <created>1648672451680</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648672451680</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +185,7 @@
     <MESSAGE value="add all necessary classes" />
     <MESSAGE value="change Anesthiologist text" />
     <MESSAGE value="implement time logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement time logging" />
+    <MESSAGE value="implement tax paying" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement tax paying" />
   </component>
 </project>
